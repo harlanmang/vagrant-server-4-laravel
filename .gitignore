@@ -1,5 +1,7 @@
 /.vagrant
 /.viminfo
 /.bash_history
+/.cache
+/.composer
 output.txt
 www
