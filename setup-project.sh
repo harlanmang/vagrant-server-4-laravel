@@ -5,8 +5,8 @@
 # >>>>> Setup Github credentials before running script
 #
 
-echo "What Git Repository to do want to clone?"
-read gitclone
+read -p "What Git Repository to do want to clone (deafults to Latest Laravel on Git)?" gitclone
+gitclone=${gitclone:-https://github.com/laravel/laravel.git}
 
 echo "Cloning Repository"
 git clone $gitclone /var/www
