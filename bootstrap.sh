@@ -69,6 +69,6 @@ apt-get install npm -y &>> output.txt
 
 ln -s /var/www ~/site &>>output.txt
 
-./home/vagrant/setup-project.sh
+/home/vagrant/setup-project.sh
 
 echo "Bootstrap Complete!"

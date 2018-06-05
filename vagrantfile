@@ -26,6 +26,9 @@ Vagrant.configure(2) do |config|
   #  vb.gui = true
   #end
 
+  ### Setup SSH to use default vagrant keys - note: less secure
+  config.ssh.insert_key = false
+
   # provision script
   config.vm.provision :shell, path: "bootstrap.sh"
 
