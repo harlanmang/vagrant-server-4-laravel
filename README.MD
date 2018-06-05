@@ -20,6 +20,9 @@ Back on your local machine, in the `www` folder do a npm install
 # npm install
 ```
 
-#### Note
+#### Notes:
+* If you have installation issues during the provisioning check the output.txt file for more detailed errors
+* Lookout for machine timeouts during provisioning
+* The default vagrant box is ubuntu/trusty32
 
 Any problems or suggestions please document. I'd like to come up with a more streamlined process to get a new project up.
