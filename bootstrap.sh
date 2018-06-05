@@ -67,8 +67,7 @@ apt-get update -y &>> output.txt
 apt-get install nodejs-legacy -y &>> output.txt
 apt-get install npm -y &>> output.txt
 
-ln -s /var/www ~/site &>>output.txt
-
-/home/vagrant/setup-project.sh
+#### Was using this to auto setup the project from provisioning but creates two problems composer runs as root and can't prompt for git repository
+#/home/vagrant/setup-project.sh
 
 echo "Bootstrap Complete!"
